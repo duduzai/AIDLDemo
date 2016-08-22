@@ -20,7 +20,9 @@
             android:name=".BluetoothService"
             android:enabled="true"
             android:exported="true"
-            android:process=":background"/>
+            android:process=":background" />
+
+        <activity android:name=".SecondActivity"></activity>
     </application>
 
 </manifest>

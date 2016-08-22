@@ -1,6 +1,6 @@
 // IMyAidlInterface.aidl
 package com.labulaka.aidldemo.aidl;
-
+import com.labulaka.aidldemo.aidl.ForClientAidl;
 // Declare any non-default types here with import statements
 
 interface IMyAidlInterface {
@@ -14,4 +14,5 @@ interface IMyAidlInterface {
     void connect(String uuid);
 
     String response();
+    void registerCallBack(ForClientAidl callBack);
 }
